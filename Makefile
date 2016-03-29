@@ -12,11 +12,11 @@ LIBNAME =
 CPPFLAGS += -I$(INCLUDE)
 
 apriori: $(OBJS)
-    $(CC) -o $(BIN)apriori $(OBJS) $(CPPFLAGS) $(LIBNAME)
+	$(CC) -o $(BIN)apriori $(OBJS) $(CPPFLAGS) $(LIBNAME)
 
 clean:
-    rm -rf $(OBJS)
+	rm -rf $(OBJS)
 
 allclean:
-    rm -rf $(OBJS) $(BIN)*
+	rm -rf $(OBJS) $(BIN)*
 
