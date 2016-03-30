@@ -1,6 +1,6 @@
 CC = g++
 
-CPPFLAGS = -g -Wall -O0
+CPPFLAGS = -g -Wall -O0 
 
 OBJS = ./src/main.o ./src/unit_test.o
 SRCS = ./src/$(OBJS: .o=.cpp)

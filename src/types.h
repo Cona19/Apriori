@@ -5,5 +5,7 @@
 
 typedef int item_t;
 typedef std::set<item_t> trx_t;
+typedef std::set<item_t> itemset_t;
+
 typedef std::vector<trx_t> trx_list_t;
-typedef std::map<trx_t, int> cand_map_t;
+typedef std::map<itemset_t, int> cand_map_t;
